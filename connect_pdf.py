@@ -4,10 +4,10 @@ import pdfkit
 import os
 import sys
 # pdfが入っている二つのフォルダを指定してくっつける
-connect_dir1 = "./004_tsuchiya_radiation/bachelor/pdf/"
-connect_dir2 = "./004_tsuchiya_radiation/bachelor/pdf_discription/"
+connect_dir1 = "./004_tsuchiya_radiation/master/pdf/"
+connect_dir2 = "./004_tsuchiya_radiation/master/pdf_description"
 #出力pdfの名前
-out_pdf_path = "./004_tsuchiya_radiation/bachelor_score.pdf"
+out_pdf_path = "./004_tsuchiya_radiation/master_score.pdf"
 
 test_list1 = os.listdir(connect_dir1)
 test_list2 = os.listdir(connect_dir2)

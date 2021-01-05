@@ -37,7 +37,7 @@ OUT_MERGED_DIR = "./004_tsuchiya_radiation/master/pdf_description/"
 # 横n列*縦m列で9*9でpdfを分割するか2*1でpdfを分割するかの選択
 # 9*9の時 flag = 1を
 # 2*1の時 flag = 0を
-flag = 1
+flag = 0
 
 
 
